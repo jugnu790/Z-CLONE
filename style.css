@@ -63,7 +63,7 @@
   .phone__view{
 	display:none;
 	background-color: white;
-	z-index:99;
+	z-index:50;
   }
   
   
@@ -208,7 +208,7 @@
   }
   
   .email__container__text{
-	font-size: 24px;
+	font-size: 40px;
 	color:#1D3557;
   }
   
@@ -220,8 +220,8 @@
   .email__content__input{
 	background-color: #fcedf0;
 	border:1px solid #ee89a0;
-	font-weight:700;
-	padding:6px;
+	font-weight:900;
+	padding:10px;
 	border-radius: 4px;
 	width:320px;
 	margin:12px;
@@ -229,42 +229,45 @@
   
   .quote_container{
     position: relative;
-    margin-top: 4rem;
+    margin-top: 5rem;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 200px;
+    height: 400px;
     width: 100%;
     border-radius: 13px;
     background:url(https://images.pexels.com/photos/4577179/pexels-photo-4577179.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center center / cover no-repeat;
 }
-.over_quote_image{
+.quote_image{
     position:absolute;
     height:200px;
     width:100%;
 }
 .quote_image_text{
-    color:white;
+    color:#fff;
     text-align:center;
-    margin:0 1rem;
+    margin:0 2rem;
 }
-  
-  .footer__container{
+.footer__container{
 	background-image: linear-gradient(
-	  to right,
+	  to left,
 	  #ff512f 0%,
 	   #dd2476 51%,
 	   #ff512f 100%
 	  );
+	  display:flex;
+	  flex-direction:column;
+	  justify-content:center;
+	  align-items:center;
 	  margin-top:48px;
-	  border-radius: 6px;
-	  border-radius:16px 16px 0px 0px;
+	  border-radius:15px 15px 0px 0px;
   }
   
   .footer__image__container{
 	display:flex;
 	flex-direction:column;
+	width:250px;
   }
   
   .footer__image{
@@ -276,17 +279,11 @@
 	  list-style-type: none;
 	  text-align: center;
 	  margin:32px;
+	  margin-bottom: 20px;
+	  color:#fff;
+	  font-size:20px;
   }
   
-  footer ul{
-	margin:5px;
-  }
-  
-  footer ul li a{
-	color:#000;
-	font-size:px;
-	margin:5px 0px;
-  }
   
   @media (min-width:768px){
 	.explore__menu__lists{
@@ -355,13 +352,22 @@
 	}
   
 	.quote__text{
-	  font-size:32px;
-	  font-weight:500;
+	  font-size:50px;
+	  font-weight:800;
 	}
   
 	.footer__image__container{
 	  flex-direction: row;
-	  justify-content: space-evenly;
+	  justify-content: space-around;
+	}
+	.footer__image {
+		width: 300px;
+		margin-left: 20px;
+	}
+	.footer__content {
+		margin: 20px;
+		font-size: 20px;
+		text-align: left;
 	}
   }
   
@@ -402,7 +408,7 @@
   
   .explore__menu__more{
 	margin-top:64px;
-	pointer:cursor;
+	content:cursor;
   }
   
   .explore__menu__more:hover{
