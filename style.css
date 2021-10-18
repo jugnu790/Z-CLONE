@@ -237,7 +237,7 @@
     height: 400px;
     width: 100%;
     border-radius: 13px;
-    background:url(https://images.pexels.com/photos/4577179/pexels-photo-4577179.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) center center / cover no-repeat;
+    background:url(https://www.gordonramsay.com/assets/Uploads/_resampled/CroppedFocusedImage121578650-50-The-River-Restaurant-Website-Hero.jpg);
 }
 .quote_image{
     position:absolute;
@@ -245,9 +245,9 @@
     width:100%;
 }
 .quote_image_text{
-    color:#fff;
+    color: #000;
     text-align:center;
-    margin:0 2rem;
+    margin:2rem;
 }
 .footer__container{
 	background-image: linear-gradient(
@@ -429,4 +429,3 @@
 	}
   
   }
-  
